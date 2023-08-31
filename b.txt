@@ -1,1 +1,3 @@
-new commit in b.txt
+updating
+updating again
+final commit in b.txt
