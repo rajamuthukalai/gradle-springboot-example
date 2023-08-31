@@ -1,0 +1,10 @@
+tlm:
+  environment: local
+myproperty: ${tlm.environment:perf}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: "env,beans"
